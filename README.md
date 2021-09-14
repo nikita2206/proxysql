@@ -38,5 +38,5 @@ docker run \
   -e PS_ADMIN_VARIABLES__ADMIN_CREDENTIALS='admin:admin;radmin:radmin' \
   -e PS_ADMIN_VARIABLES__MYSQL_IFACES='0.0.0.0:6032' \
   -e PS_MYSQL_VARIABLES__THREADS=4 \
-  nikita2206/proxysql
+  quay.io/nikita2206/proxysql
 ```
